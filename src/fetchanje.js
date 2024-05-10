@@ -55,11 +55,11 @@ const AKDComponent = () => {
 
   // Priprema podataka za grafikone
   const datesPerDay = parsedCodesPerDay.map(item => item.dat);
-  const countsPerDay = parsedCodesPerDay.map(item => item.cnt);
+  //const countsPerDay = parsedCodesPerDay.map(item => item.cnt);
   const quantitiesPerDay = parsedCodesPerDay.map(item => item.qty);
 
   const monthsPerMonth = parsedCodesPerMonth.map(item => item.month);
-  const countsPerMonth = parsedCodesPerMonth.map(item => item.cnt);
+  //const countsPerMonth = parsedCodesPerMonth.map(item => item.cnt);
   const quantitiesPerMonth = parsedCodesPerMonth.map(item => item.qty);
 
   // Konfiguracija podataka za grafikone
