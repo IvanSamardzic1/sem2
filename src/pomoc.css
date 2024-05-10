@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart-container {
+    width: 900px;
+    height: 900px;
+  }
+  .chart-container-krug{
+    width: 700px;
+    height: 700px;
+  }

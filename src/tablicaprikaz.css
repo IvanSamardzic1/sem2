@@ -1,0 +1,37 @@
+.table-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .table-container button {
+    margin-bottom: 10px;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: '800px';
+    height: '800px';
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table td.muskarci {
+    background-color: rgba(0, 0, 255, 0.3);
+  }
+  
+  .table td.zene {
+    background-color: rgba(255, 0, 0, 0.3);
+  }
+  
+ 
